@@ -49,7 +49,11 @@ for(let i = 0; i < uncookedFood.length; i++){
     let currentObject = uncookedFood[i];
 
     // 4. Now, add a line that calls the grill() function and passes in the current item being iterated over.
-    grill(uncookedFood[i])
+    grill(currentObject)
+    
+    // DELETE THE ITEMS FROM THE ARRAY AS THEY ARE COOKED...
+    delete uncookedFood[i]
+    console.log(uncookedFood);
 }
 // If the loop successfully iterates over the array and successfully executes the grill() function on each object. This console log should appear as an array that has each object's 'cooked' key now shows true.
 //********** LOOP ANSWER END *******************//
