@@ -55,7 +55,7 @@ for(let i = 0; i < uncookedFood.length; i++){
 //********** LOOP ANSWER END *******************//
 
 
-//SINGLE CODE LINE ANSWER USING FOREACH
+//****** SINGLE CODE LINE ANSWER USING FOREACH ********//
 // This answer allows the grill funtion to run on every item in the array by passing the function to the higher order function
 // uncookedFood.forEach(grill);
 
